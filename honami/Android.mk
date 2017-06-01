@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),sony)
-ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
+ifeq ($(PRODUCT_DEVICE),honami)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
@@ -47,6 +47,25 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS   := eng
+LOCAL_MODULE        := tad_static
+LOCAL_MODULE_CLASS  := BIN
+LOCAL_SRC_FILES     := proprietary/sbin/tad_static
+LOCAL_MODULE_TAGS   := optional
+LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
+LOCAL_ADDITIONAL_DEPENDENCIES := wait4tad_static
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE_TAGS   := eng
+LOCAL_MODULE        := wait4tad_static
+LOCAL_MODULE_CLASS  := BIN
+LOCAL_SRC_FILES     := proprietary/sbin/wait4tad_static
+LOCAL_MODULE_TAGS   := optional
+LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
 include $(BUILD_PREBUILT)
 
 endif
