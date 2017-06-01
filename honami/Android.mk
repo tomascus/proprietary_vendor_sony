@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),sony)
-ifeq ($(BOARD_VENDOR_PLATFORM),rhine)
+ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
