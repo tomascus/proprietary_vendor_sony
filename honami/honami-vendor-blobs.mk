@@ -231,9 +231,12 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/lib/libcammw.so:system/lib/libcammw.so \
 	vendor/sony/honami/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	vendor/sony/honami/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+	vendor/sony/honami/proprietary/lib/libcrashlevelmatrix.so:system/lib/libcrashlevelmatrix.so \
 	vendor/sony/honami/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
+	vendor/sony/honami/proprietary/lib/libdtcpipplayer.so:system/lib/libdtcpipplayer.so \
 	vendor/sony/honami/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
 	vendor/sony/honami/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
+	vendor/sony/honami/proprietary/lib/lib_extended_boot_lock.so:system/lib/lib_extended_boot_lock.so \
 	vendor/sony/honami/proprietary/lib/lib_get_hwc_revision.so:system/lib/lib_get_hwc_revision.so \
 	vendor/sony/honami/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
 	vendor/sony/honami/proprietary/lib/lib_get_s1_cert_common_name.so:system/lib/lib_get_s1_cert_common_name.so \
@@ -246,6 +249,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
 	vendor/sony/honami/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
 	vendor/sony/honami/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+	vendor/sony/honami/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
+	vendor/sony/honami/proprietary/lib/libMiscTAApi.so:system/lib/libMiscTAApi.so \
 	vendor/sony/honami/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
 	vendor/sony/honami/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/sony/honami/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -259,11 +264,14 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
 	vendor/sony/honami/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
 	vendor/sony/honami/proprietary/lib/libsony_face.so:system/lib/libsony_face.so \
+	vendor/sony/honami/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
 	vendor/sony/honami/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
 	vendor/sony/honami/proprietary/lib/libstlport.so:system/lib/libstlport.so \
 	vendor/sony/honami/proprietary/lib/libta.so:system/lib/libta.so \
 	vendor/sony/honami/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
 	vendor/sony/honami/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
+	vendor/sony/honami/proprietary/sbin/tad_static:system/sbin/tad_static \
+	vendor/sony/honami/proprietary/sbin/wait4tad_static:system/sbin/wait4tad_static \
 	vendor/sony/honami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
 	vendor/sony/honami/proprietary/usr/idc/clearpad_pen.idc:system/usr/idc/clearpad_pen.idc \
 	vendor/sony/honami/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
@@ -369,6 +377,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
 	vendor/sony/honami/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
 	vendor/sony/honami/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+	vendor/sony/honami/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+	vendor/sony/honami/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+	vendor/sony/honami/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/sony/honami/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
 	vendor/sony/honami/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
 	vendor/sony/honami/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
@@ -510,6 +521,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/sony/honami/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
 	vendor/sony/honami/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+	vendor/sony/honami/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
 	vendor/sony/honami/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
 	vendor/sony/honami/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
 	vendor/sony/honami/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
@@ -522,7 +534,11 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	vendor/sony/honami/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/sony/honami/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+	vendor/sony/honami/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+	vendor/sony/honami/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+	vendor/sony/honami/proprietary/vendor/lib/libloc_xtra.so:system/vendor/lib/libloc_xtra.so \
 	vendor/sony/honami/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+	vendor/sony/honami/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -540,6 +556,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
@@ -549,7 +566,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
 	vendor/sony/honami/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+	vendor/sony/honami/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
 	vendor/sony/honami/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+	vendor/sony/honami/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
 	vendor/sony/honami/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/sony/honami/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/sony/honami/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -583,8 +602,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	vendor/sony/honami/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
 	vendor/sony/honami/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+	vendor/sony/honami/proprietary/vendor/lib/libsony_face.so:system/vendor/lib/libsony_face.so \
 	vendor/sony/honami/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-	vendor/sony/honami/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+	vendor/sony/honami/proprietary/vendor/lib/libta.so:system/vendor/lib/libta.so \
 	vendor/sony/honami/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
 	vendor/sony/honami/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
 	vendor/sony/honami/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
@@ -600,8 +620,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
 	vendor/sony/honami/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
 	vendor/sony/honami/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-	vendor/sony/honami/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so 
+	vendor/sony/honami/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
     libTimeService \
-    TimeService 
+    TimeService
