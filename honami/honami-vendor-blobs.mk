@@ -20,6 +20,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/sony/honami/proprietary/bin/iddd:system/bin/iddd \
 	vendor/sony/honami/proprietary/bin/idd-logreader:system/bin/idd-logreader \
+	vendor/sony/honami/proprietary/bin/imscmservice:system/bin/imscmservice \
+	vendor/sony/honami/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+	vendor/sony/honami/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+	vendor/sony/honami/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	vendor/sony/honami/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/sony/honami/proprietary/bin/loc_launcher:system/bin/loc_launcher \
 	vendor/sony/honami/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -513,6 +517,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
 	vendor/sony/honami/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
 	vendor/sony/honami/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+	vendor/sony/honami/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
 	vendor/sony/honami/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
 	vendor/sony/honami/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	vendor/sony/honami/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -595,5 +600,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
 	vendor/sony/honami/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
 	vendor/sony/honami/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-	vendor/sony/honami/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+	vendor/sony/honami/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so 
 
+PRODUCT_PACKAGES += \
+    libTimeService \
+    TimeService 
