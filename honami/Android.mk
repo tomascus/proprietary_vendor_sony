@@ -15,12 +15,12 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),sony)
-ifeq ($(PRODUCT_DEVICE),honami)
+#ifeq ($(PRODUCT_DEVICE),honami)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libta
 LOCAL_MODULE_OWNER := sony
-LOCAL_SRC_FILES := proprietary/vendor/lib/libta.so
+LOCAL_SRC_FILES := proprietary/lib/libta.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
@@ -78,5 +78,5 @@ LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
 include $(BUILD_PREBUILT)
 
-endif
+#endif
 endif

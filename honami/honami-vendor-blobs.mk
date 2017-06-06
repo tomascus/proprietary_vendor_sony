@@ -183,6 +183,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
 	vendor/sony/honami/proprietary/etc/init.qcom-sensor.sh:system/etc/init.qcom-sensor.sh \
 	vendor/sony/honami/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
+	vendor/sony/honami/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
 	vendor/sony/honami/proprietary/etc/sec_config:system/etc/sec_config \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
@@ -206,8 +207,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/lib/camera/libexcal_snapshot_ctrl_plugin.so \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:system/lib/camera/libexcal_streaming_ctrl_plugin.so \
-	vendor/sony/honami/proprietary/lib/hw/camera.qcom.so.temp:system/lib/hw/camera.qcom.so.temp \
+	vendor/sony/honami/proprietary/lib/camera/libexcal_predictive_af_plugin.so:system/lib/camera/libexcal_predictive_af_plugin.so \
+	vendor/sony/honami/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
 	vendor/sony/honami/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	vendor/sony/honami/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
 	vendor/sony/honami/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
 	vendor/sony/honami/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
 	vendor/sony/honami/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
@@ -280,6 +283,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
 	vendor/sony/honami/proprietary/usr/idc/usf_tsc_ptr.idc:system/usr/idc/usf_tsc_ptr.idc \
 	vendor/sony/honami/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
+	vendor/sony/honami/proprietary/framework/com.sonyericsson.idd.jar:system/framework/com.sonyericsson.idd.jar \
+	vendor/sony/honami/proprietary/vendor/CredentialManagerData:system/vendor/CredentialManagerData \
 	vendor/sony/honami/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
 	vendor/sony/honami/proprietary/vendor/camera/LGI02BN1/cam_ctrl.dat:system/vendor/camera/LGI02BN1/cam_ctrl.dat \
 	vendor/sony/honami/proprietary/vendor/camera/LGI02BN1/cap_ctrl.dat:system/vendor/camera/LGI02BN1/cap_ctrl.dat \
@@ -514,6 +519,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
 	vendor/sony/honami/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/sony/honami/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+	vendor/sony/honami/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/sony/honami/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
 	vendor/sony/honami/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
 	vendor/sony/honami/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -604,7 +610,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
 	vendor/sony/honami/proprietary/vendor/lib/libsony_face.so:system/vendor/lib/libsony_face.so \
 	vendor/sony/honami/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-	vendor/sony/honami/proprietary/vendor/lib/libta.so:system/vendor/lib/libta.so \
 	vendor/sony/honami/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
 	vendor/sony/honami/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
 	vendor/sony/honami/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
