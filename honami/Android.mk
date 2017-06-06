@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),sony)
-#ifeq ($(PRODUCT_DEVICE),honami)
+ifeq ($(BOARD_VENDOR_PLATFORM),rhine)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libta
@@ -78,5 +78,5 @@ LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_PATH   := $(TARGET_ROOT_OUT_SBIN)
 include $(BUILD_PREBUILT)
 
-#endif
+endif
 endif
