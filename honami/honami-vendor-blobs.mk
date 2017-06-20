@@ -179,14 +179,10 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
 	vendor/sony/honami/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
 	vendor/sony/honami/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-	vendor/sony/honami/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-	vendor/sony/honami/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-	vendor/sony/honami/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
 	vendor/sony/honami/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
 	vendor/sony/honami/proprietary/etc/init.qcom-sensor.sh:system/etc/init.qcom-sensor.sh \
 	vendor/sony/honami/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
 	vendor/sony/honami/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
-	vendor/sony/honami/proprietary/etc/sec_config:system/etc/sec_config \
 	vendor/sony/honami/proprietary/etc/iddd.conf:system/etc/iddd.conf \
 	vendor/sony/honami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
@@ -271,7 +267,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
 	vendor/sony/honami/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
 	vendor/sony/honami/proprietary/lib/libsony_face.so:system/lib/libsony_face.so \
-	vendor/sony/honami/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
 	vendor/sony/honami/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
 	vendor/sony/honami/proprietary/lib/libstlport.so:system/lib/libstlport.so \
 	vendor/sony/honami/proprietary/lib/libta.so:system/lib/libta.so \
@@ -280,12 +275,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/sbin/tad_static:system/sbin/tad_static \
 	vendor/sony/honami/proprietary/sbin/wait4tad_static:system/sbin/wait4tad_static \
 	vendor/sony/honami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-	vendor/sony/honami/proprietary/usr/idc/clearpad_pen.idc:system/usr/idc/clearpad_pen.idc \
-	vendor/sony/honami/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-	vendor/sony/honami/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-	vendor/sony/honami/proprietary/usr/idc/usf_tsc_ext.idc:system/usr/idc/usf_tsc_ext.idc \
-	vendor/sony/honami/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
-	vendor/sony/honami/proprietary/usr/idc/usf_tsc_ptr.idc:system/usr/idc/usf_tsc_ptr.idc \
 	vendor/sony/honami/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/honami/proprietary/framework/com.sonyericsson.idd.jar:system/framework/com.sonyericsson.idd.jar \
 	vendor/sony/honami/proprietary/vendor/CredentialManagerData:system/vendor/CredentialManagerData \
