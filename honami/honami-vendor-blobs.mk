@@ -207,7 +207,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/lib/camera/libexcal_snapshot_ctrl_plugin.so \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:system/lib/camera/libexcal_streaming_ctrl_plugin.so \
-	vendor/sony/honami/proprietary/lib/camera/libexcal_predictive_af_plugin.so:system/lib/camera/libexcal_predictive_af_plugin.so \
 	vendor/sony/honami/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
 	vendor/sony/honami/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/sony/honami/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
@@ -622,4 +621,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libTimeService \
-    TimeService
+    TimeService \
+    tad_static \
+    wait4tad_static 
