@@ -16,6 +16,8 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+	vendor/sony/honami/proprietary/bin/btnvtool:system/bin/btnvtool \
+	vendor/sony/honami/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
 	vendor/sony/honami/proprietary/bin/credmgrd:system/bin/credmgrd \
 	vendor/sony/honami/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/sony/honami/proprietary/bin/iddd:system/bin/iddd \
@@ -185,6 +187,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/honami/proprietary/etc/permissions/com.sonyericsson.idd.xml:system/etc/permissions/com.sonyericsson.idd.xml \
 	vendor/sony/honami/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
 	vendor/sony/honami/proprietary/etc/sec_config:system/etc/sec_config \
+	vendor/sony/honami/proprietary/etc/iddd.conf:system/etc/iddd.conf \
+	vendor/sony/honami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
 	vendor/sony/honami/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:system/lib/camera/libexcal_color_ctrl_plugin.so \
